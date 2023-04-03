@@ -1,0 +1,46 @@
+.Navbar {
+  height: 8vh;
+  display: flex;
+  /* align-items: center; */
+  justify-content: space-between;
+  padding-top: 4vh;
+  background-color: #ffffff;
+  box-shadow: 0px 4px 4px 0px #00000040;
+}
+
+.Navbar img {
+  padding-left: 1vw;
+  padding-bottom: 1vh;
+}
+
+.middle {
+  height: 8vh;
+
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 2vw;
+  color: #002550;
+  height: 100%;
+  bottom: 0;
+}
+
+.middle p {
+  padding-bottom: 2.8vh;
+}
+
+.middle p:hover {
+  border-bottom: 4px solid #002550;
+}
+
+.registerbutton {
+  margin-right: 1vw;
+  margin-top: 2vh;
+  color: #ffffff;
+  background-color: #002550;
+  border: none;
+  border-radius: 4px;
+  height: 5vh;
+  padding-left: 1vw;
+  padding-right: 1vw;
+}

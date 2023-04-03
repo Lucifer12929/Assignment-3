@@ -1,0 +1,187 @@
+.Offering {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1vw;
+  flex-direction: column;
+  padding-left: 10vw;
+  padding-right: 10vw;
+}
+.top {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.top h1 {
+  font-family: Open Sans;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 44px;
+  letter-spacing: 0em;
+  width: fit-content;
+  padding-bottom: 1vw;
+
+  border-bottom: 2px solid #1a1a1a;
+}
+
+.top p {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+}
+
+.top a {
+  color: #002550;
+}
+
+.middle {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  gap: 2vw;
+
+  width: 100%;
+}
+
+.each {
+  width: 20vw;
+  height: 8vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1vw;
+  padding-left: 2vw;
+  padding-right: 2vw;
+  padding-top: 1vh;
+  padding-bottom: 1vh;
+  background: #f2f4f6;
+}
+
+.each h1 {
+  background-color: #ffffff;
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 33px;
+  border-radius: 50%;
+  padding: 0.4vw 1vw;
+}
+.each p {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 33px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+
+  /* Text Color */
+
+  color: #1a1a1a;
+}
+
+.each:hover {
+  background-color: #ccd3dc;
+  border-bottom: 2px solid #000000;
+}
+
+/* Card CSS */
+
+.bottom {
+  margin-top: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  gap: 2vw;
+
+  width: 100%;
+}
+
+.card {
+  width: 20vw;
+  max-width: 20vw;
+  min-width: 20vw;
+  display: flex;
+
+  justify-content: center;
+  flex-direction: column;
+  gap: 1vw;
+  box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.3);
+  border-radius: 10px;
+  padding-left: 1vw;
+  padding-right: 1vw;
+  padding-top: 1.2vh;
+  padding-bottom: 1vh;
+  background: #ffffff;
+  text-align: left;
+}
+
+.card img {
+  width: 100%;
+  height: 100%;
+}
+
+.card h2 {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 28px;
+  line-height: 38px;
+  display: flex;
+  align-items: center;
+
+  /* Primary Color */
+
+  color: #002550;
+}
+
+.card p {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 24px;
+  /* or 133% */
+
+  display: flex;
+  align-items: center;
+  text-align: justify;
+  margin-top: 1px;
+
+  /* Text Color */
+
+  color: #1a1a1a;
+
+  opacity: 0.6;
+}
+.card button {
+  box-sizing: border-box;
+
+  /* Auto layout */
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 18px 32px;
+  gap: 10px;
+
+  width: 202px;
+  height: 61px;
+  color: #1a1a1a;
+  /* priamry button */
+
+  border: 1px solid #01244a;
+  border-radius: 5px;
+  background-color: transparent;
+  font-family: "Open Sans";
+  font-style: normal;
+
+  font-size: 18px;
+  line-height: 25px;
+}

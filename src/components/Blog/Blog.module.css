@@ -1,0 +1,171 @@
+.Blog {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2vw;
+  flex-direction: column;
+  padding-left: 10vw;
+  padding-right: 10vw;
+  background-color: #f2f4f6;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+.top {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.top h1 {
+  font-family: Open Sans;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 44px;
+  letter-spacing: 0em;
+  width: fit-content;
+  padding-bottom: 1vw;
+
+  border-bottom: 2px solid #1a1a1a;
+}
+
+.container {
+  display: flex;
+  gap: 2vw;
+}
+
+.prev {
+  border: none;
+  background: transparent;
+}
+.icon {
+  padding: 1vw;
+  background-color: #e6eaee;
+
+  border-radius: 50%;
+}
+
+.cards {
+  margin-top: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  gap: 5vw;
+
+  width: 100%;
+}
+
+.card {
+  width: 20vw;
+  max-width: 20vw;
+  min-width: 20vw;
+  display: flex;
+
+  justify-content: center;
+  flex-direction: column;
+
+  background: #ffffff;
+  box-shadow: 0px 4px 61px rgba(0, 0, 0, 0.16);
+  border-radius: 10px;
+  padding-left: 1vw;
+  padding-right: 1vw;
+  padding-top: 1.2vh;
+  padding-bottom: 1vh;
+  background: #ffffff;
+  text-align: left;
+}
+
+.card img {
+  width: 100%;
+  height: 100%;
+}
+
+.card p {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+
+  color: #1a1a1a;
+
+  opacity: 0.6;
+}
+.card button {
+  box-sizing: border-box;
+
+  /* Auto layout */
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 18px 32px;
+  gap: 10px;
+
+  width: 202px;
+  height: 61px;
+  color: #1a1a1a;
+  /* priamry button */
+
+  border: 1px solid #01244a;
+  border-radius: 5px;
+  background-color: transparent;
+  font-family: "Open Sans";
+  font-style: normal;
+
+  font-size: 18px;
+  line-height: 25px;
+}
+
+.card h4 {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+  /* identical to box height */
+
+  display: flex;
+  align-items: center;
+
+  /* Primary Color */
+
+  color: #002550;
+}
+
+.mid {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.cal {
+  display: flex;
+  gap: 1vw;
+  align-items: center;
+}
+
+.mid h3 {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 22px;
+  /* identical to box height */
+
+  /* Text Color */
+
+  color: #1a1a1a;
+}
+
+.card h2 {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 28px;
+  line-height: 38px;
+  display: flex;
+  align-items: center;
+
+  /* Primary Color */
+
+  color: #002550;
+}
